@@ -4,6 +4,7 @@ import ChiTietVatTuScreen from './src/libs/Others/ChiTietVatTuScreen';
 import ExpandableListViewScreen from './src/libs/ExpandableListView/ExpandableListViewScreen';
 import CalendarScreen from './src/libs/CCalendar/CalendarScreen';
 import MainScreen from './src/screen/MainScreen';
+import NativeToastScreen from './src/native_libs/Toast/NativeToastScreen'
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 
@@ -13,6 +14,7 @@ const AppStack = createStackNavigator({
         ExpandableListViewScreen: ExpandableListViewScreen,
         ChiTietVatTuScreen: ChiTietVatTuScreen,
         LoginScreen: LoginScreen,
+        NativeToastScreen: NativeToastScreen,
     },
     {
         initialRouteName: 'MainScreen',

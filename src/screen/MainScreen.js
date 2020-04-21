@@ -11,6 +11,9 @@ const listModule = [
     {
         name: 'CalendarScreen',
     },
+    {
+        name: 'NativeToastScreen',
+    }
     // {
     //     name: 'ExpandableListViewScreen'
     // }
